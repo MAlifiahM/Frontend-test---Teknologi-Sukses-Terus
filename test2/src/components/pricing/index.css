@@ -1,0 +1,21 @@
+.price-icons {
+    max-width: 10px;
+    max-height: 10px;
+}
+
+.pricing-response {
+    display: flex;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1023px) {
+    .pricing-response {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .pricing-response > div {
+        min-width: 80%;
+        margin-right: 1rem;
+    }
+}

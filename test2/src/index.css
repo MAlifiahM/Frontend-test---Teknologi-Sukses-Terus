@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-custom {
+  background-image: url('./assets/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg');
+  background-size: cover;
+  background-position: inherit;
+  width: 100%;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
